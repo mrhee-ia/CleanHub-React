@@ -18,3 +18,7 @@
   transform: translate(-3px, -3px);
   box-shadow: 5px 5px 0 0 var(--custom-white);
 }
+
+.greenShadow {
+    box-shadow: 3px 3px 0 0 green;
+  }
