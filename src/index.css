@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --custom-white: #edf6f9;
+}
+
+.whiteShadow {
+  box-shadow: 2px 2px 0 0 var(--custom-white);
+}
+.whiteShadow:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 0 0 var(--custom-white);
+}
